@@ -1,0 +1,9 @@
+# Copyright (c) 2022 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_ORTHFU65
+
+config ZMK_KEYBOARD_NAME
+    default "Orthfu65"
+
+endif
