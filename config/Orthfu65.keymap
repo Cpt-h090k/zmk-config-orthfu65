@@ -11,13 +11,13 @@
             //                       |  TAB |  Q  |  W  |  E   |  R   |  T   | EQUAL   |BACKSLASH|  Y   |  U    |  I    |        O   |      P      |     DEL     |
             //     |  BLANK |  BLANK |LSHIFT|  A  |  S  |  D   |  F   |  G   | MINUS   |  SQT    |  H   |  J    |  K    |        L   |          ENTER            |
             //     |  BLANK |  BLANK | CAPS |  Z  |  X  |  C   |  V   |  B   |SEMICOLON|  FSLH   |  N   |  M    |  ,    |        .   |   UP_ARROW  |      RSHIFT |
-            //     |  BLANK |  BLANK | CTRL |BSPC | WIN | LALT |  FN  |      SPACE     |     SPACE      | RALT  | RCTRL | LEFT_ARROW | DOWN_ARROW  | RIGHT_ARROW | 
+            //     |  BLANK |  BLANK | CTRL |BSPC | WIN | LALT |  CTRL|      SPACE     |     SPACE      | RALT  | RCTRL | LEFT_ARROW | DOWN_ARROW  | RIGHT_ARROW | 
             bindings = <
                         &kp ESC     &kp N1    &kp N2  &kp N3   &kp N4   &kp N5 &kp N6         &kp N7        &kp N8   &kp N9    &kp N0          &kp END               &kp BACKSPACE
                         &kp TAB     &kp Q     &kp W   &kp E    &kp R    &kp T  &kp EQUAL      &kp BACKSLASH &kp Y    &kp U     &kp I           &kp O           &kp P           &kp DEL
        &kp F1 &kp F2    &kp LSHIFT  &kp A     &kp S   &kp D    &kp F    &kp G  &kp MINUS      &kp SQT       &kp H    &kp J     &kp K           &kp L                 &kp ENTER
        &kp F3 &kp F4    &kp CAPS    &kp Z     &kp X   &kp C    &kp V    &kp B  &kp SEMICOLON  &kp FSLH      &kp N    &kp M     &kp COMMA       &kp PERIOD      &kp UP_ARROW    &kp RSHFT
-       &kp F5 &kp F6    &kp CTRL    &kp BSPC  &kp WIN &kp LALT &kp FN        &kp SPACE          &kp SPACE            &kp RALT  &kp RCTRL       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+       &kp F5 &kp F6    &kp CTRL    &kp BSPC  &kp WIN &kp LALT &kp CTRL     &kp SPACE          &kp SPACE            &kp RALT  &kp RCTRL       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
         };
     };
