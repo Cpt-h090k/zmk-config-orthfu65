@@ -12,12 +12,12 @@
             //     |  BLANK |  BLANK | CAPS |  A  |  S  |  D   |  F   |  G   | MINUS   |  SQT    |  H   |  J    |  K    |        L   |          ENTER            |
             //     |  BLANK |  BLANK |LSHIFT|  Z  |  X  |  C   |  V   |  B   |SEMICOLON|  FSLH   |  N   |  M    |  ,    |        .   |   UP_ARROW  |      RSHIFT |
             //     |  BLANK |  BLANK | CTRL |WIN | LALT | BSPC |      SPACE     |     SPACE      |  WIN | RALT  | RCTRL | LEFT_ARROW | DOWN_ARROW  | RIGHT_ARROW | 
-            bindings = <
-                &kp END        &kp ESC      &kp N1        &kp N2        &kp N3   &kp N4       &kp N5       &kp N6       &kp N7    &kp N8          &kp N9          &kp N0                &kp BACKSPACE
-                &kp BACKSLASH  &kp TAB      &kp Q         &kp W         &kp E    &kp R        &kp T        &kp Y        &kp U     &kp I           &kp O           &kp P           &kp MINUS     &kp DEL
-&kp F1 &kp F2   &kp SEMICOLON  &kp CAPS     &kp A         &kp S         &kp D    &kp F        &kp G        &kp H        &kp J     &kp K           &kp L           &kp SQT               &kp ENTER
-&kp F3 &kp F4   &kp EQUAL      &kp LSHIFT   &kp Z         &kp X         &kp C    &kp V        &kp B        &kp N        &kp M     &kp COMMA       &kp PERIOD      &kp FSLH        &kp UP_ARROW     &kp RSHFT
-&kp F5 &kp F6   &kp BSPC       &kp LCTRL    &kp LEFT_GUI  &kp LALT          &kp SPACE             &kp SPACE             &kp LEFT_GUI    &kp RALT     &kp RCTRL    &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW
+            bindings = <  
+                &kp ESC       &kp N1        &kp N2        &kp N3        &kp N4   &kp N5       &kp N6       &kp N7       &kp N8         &kp N9            &kp N0          &kp END               &kp BACKSPACE
+                &kp TAB       &kp Q         &kp W         &kp E         &kp R    &kp T        &kp Y        &kp U        &kp I          &kp O             &kp P           &kp BACKSLASH   &kp MINUS     &kp DEL
+&kp F1 &kp F2   &kp CAPS      &kp A         &kp S         &kp D         &kp F    &kp G        &kp H        &kp J        &kp K          &kp L             &kp SQT         &kp SEMICOLON         &kp ENTER
+&kp F3 &kp F4   &kp LSHIFT    &kp Z         &kp X         &kp C         &kp V    &kp B        &kp N        &kp M        &kp COMMA      &kp PERIOD        &kp FSLH        &kp EQUAL       &kp UP_ARROW     &kp RSHFT
+&kp F5 &kp F6   &kp LCTRL     &kp LEFT_GUI  &kp LALT      &kp BSPC           &kp SPACE             &kp SPACE            &kp LEFT_GUI   &kp RALT          &kp RCTRL       &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW
             >;
         };
     };
